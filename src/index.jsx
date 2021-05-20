@@ -3,6 +3,7 @@ import { render } from "react-dom";
 import "./style.css";
 
 import { Movies } from "./Movies";
+import { AddMovie } from "./AddMovie";
 
 const DUMMY_MOVIES = [
   {
@@ -30,10 +31,6 @@ const DUMMY_MOVIES = [
     sTitulky: false
   },
 ];
-
-const AddMovie = () => {
-  return <div>Formulář pro přidání filmu</div>;
-};
 
 const App = () => {
   return (
