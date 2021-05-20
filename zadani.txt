@@ -1,0 +1,25 @@
+ÚKOL 1
+    0. git clone https://github.com/traja-traja/opakovani_react
+    cd opakovani_react
+    npm install
+    😉
+    1. Vytvoř komponentu Movie
+    2. Komponenta Movie bude vracet <div> s className movie
+    3. V komponentě (v tomto divu) zobraz obrázek filmu, nadpis v h2 a popis v odstavci
+       Bonus: Pokud obrázek chybí, poraď si :)
+    4. Pokud má film titulky, zobraz pod nadpisem výrazné upozornění: Tento film je s titulky.
+    5. Pokud má film titulky, zajisti, aby <div> v komponentě Movie měl kromě classy "movie" ještě classu "movie--s-titulky"
+
+
+ÚKOL 2
+    Motto: Těžko na bojišti, lehko na cvičišti.
+	1. V komponentě Movie pod odstavcem s popisem vyrob div <div className="action-buttons"> s tlačíty [+] a [-], mezi nimi počet bodů
+       (Toto jsme měli hotové.)
+	2. Vyrob bodování filmů, od 1 do 10 bodů, 5 bude defaultní skóre.
+	3. Tlačítka plus a mínus zvyšují a nebo snižují skóre o 1
+	4. Stačí, když budeš stav držet na komponentě Movie
+	5. Když bude skóre nižší nebo rovno 5, zobraz červený rámeček (vyrob si classu, třeba "movie--neoblibene").
+       Když bude skóre vyšší než 5, zobraz zelený rámeček… (className="movie--oblibene") - odstín barvy si zvol podle sebe :)
+	6. Bonus: Přesuň logiku skóre do vlastní komponenty Score, zachovej funkčnost (změna css třídy v komponentě Movie)
+	7. Nice to have: Zajisti, aby se nedalo jít do mínusu, nebo nad 10 bodů :)
+    8. Extra bonus: Zobrazte počet bodů "hezčím/jiným" způsobem, např. s textem (1 bod, 2 body …), nebo počtem hvězdiček….. apod. :-)
