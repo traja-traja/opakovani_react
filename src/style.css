@@ -17,3 +17,24 @@ html {
 header {
   text-align: center;
 }
+
+.movie {
+  box-shadow: 1px 1px 5px rgba(50,50,50,0.5);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.movie--s-titulky {
+  border: 4px solid navy;
+}
+
+.movie img {
+  max-width: 100%;
+}
+
+.btn {
+  background-color: navy;
+  color: white;
+  border-width: 0;
+}
